@@ -18,7 +18,7 @@ using namespace std;
 // usamos o using namespace std para não precisar ficar escrevendo std::cout, std::cin, std::endl
 int main(){
     int n;
-    cout << "digite um numero: ";
+    std::cout << "digite um numero: ";
     // cout é para imprimir na tela
     cin >> n;
     // cin é para pegar o valor de n digitado pelo usuário
