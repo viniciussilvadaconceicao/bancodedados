@@ -59,8 +59,8 @@ int main() {
     do {
         printf("\nMENU:\n");
         printf("1. Enfileirar elementos\n");
-        printf("2. remover elementos\n");
-        printf("3. Amostra a Fila\n");
+        printf("2. desenfileirar\n");
+        printf("3. Amostra\n");
         printf("4. Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
