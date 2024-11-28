@@ -1,0 +1,79 @@
+questão 1
+
+em uma estrutura de dados do tipo fila ,denominada S há sequencias de valores (33,22,11) na qual o elemento mais à esquerda na sequencia refere-se à posição primeira da fila . sejam as operacoes
+(i) desenfileira (f), que remove um elemento da fila f e retorna esse elemento , e 
+(iii)enfileira (f,e) que insere o elemento E na fila F 
+apos executar a expressao enfileira(s, desenfileira(s) - desenfileira(s)) a sequencia de elementos de S será 
+dica existe uma operação matemática a ser feita na expressao
+resposta `(11, 11)`.
+
+questão 2
+
+a estrutura de dados fila tambem é conhecida por um acrônimo que usa as iniciais de palavras na lingua inglesa, refletindo o funcionamento dessa estrutura de dados. Esse acrônimo é 
+resposta FIFO
+
+questão 3
+
+A equipe responsável pela elaboração de projetos de tecnilogia da informação de determinada instituição recebeu a seguinte demanda do setor administrativo: "no setor de atendimento ao usuário , frequentimente , há atendimento que, hoje, são gerenciados de forma manual,causando inúmeros transtornos pela falta de controle, bem como acúmulo de pessoas proximas à entrada do setor. Pensamos na criação de um sistema web em que o usuário acessa o portal e, ao se identificar, faz uma requisição para solicitar atendimento. O fluxo diário de solicitações é por diário, ou seja, todas as requisições às 7 às 18 horas, o sistema possibilitará que tal solicitação seja ordenada, por ordem de chegada, sem horário fixo. Deve-se levar em consideração que os atendimentos do dia ocorrem até às 18 horas, com uma hora de duração; por exemplo, são registrados cinco atendimentos diários.”
+Considerando que o responsável pelo projeto definiu que a aplicação utilizará a estrutura de dados fila ir à frente às exigências, assinale a afirmativa correta.
+resposta b) A variação que permite ao último elemento se conectar com o primeiro em formato contínuo denomina-se fila circular.
+
+Questão 7:
+
+No desenvolvimento de um software que analisa bases de DNA, representadas pelas letras A, C, G, T, utilizou-se estruturas de dados do tipo fila e pilha. Considere que uma sequência foi armazenada em uma pilha e outra em uma fila, e essa sequência ficou armazenada na seguinte ordem:
+Pilha: (A, G, T, C, A, G, T).
+Fila: (T, C, G, A, T, C, G).
+
+Cada elemento foi retirado da respectiva estrutura de dados na seguinte ordem:
+    •	Da pilha, os elementos foram retirados do topo.
+    •	Da fila, os elementos foram retirados do início.
+
+A sequência final ficou armazenada na seguinte ordem:
+(T, C, G, A, T, C, G, A, T, G, C, A).
+
+Qual a sequência de estruturas de dados apresentadas a seguir pode ter sido usada no cenário descrito acima?
+resposta d) Pilha - Fila - Pilha.
+
+Questão 8:
+
+Analise as afirmativas referentes às estruturas de dados básicas:
+I - Uma lista linear é uma sequência de zero ou mais itens x1, x2, …, xn, em que xi é de um determinado tipo e n representa o tamanho da lista linear.
+II - Uma pilha é uma lista linear em que todas as inserções, retiradas e geralmente todos os acessos, são feitos em apenas um extremo da lista.
+III - Uma fila é uma lista linear em que todas as inserções são realizadas em um extremo da lista e todas as retiradas são realizadas no outro extremo da lista.
+resposta a) I, II e III.
+
+Questão 9:
+
+As Estruturas de Dados definem a forma como os dados serão armazenados na memória do computador. Duas das estruturas de dados mais utilizadas na computação são a Pilha e a Fila. Considere as afirmativas abaixo que comparam as estruturas de Pilha e Fila:
+
+I - A estrutura chamada Pilha é descrita como uma estratégia LIFO - last in, first out (o último que entra é o primeiro que sai), isto é, os elementos da pilha só podem ser retirados na ordem inversa à ordem em que foram introduzidos.
+II - A estrutura chamada Fila é descrita como uma estratégia FIFO - first in, first out (o primeiro que entra é o primeiro que sai), isto é, os elementos da fila só podem ser retirados na mesma ordem em que foram inseridos.
+III - Uma estrutura que recebe os dados 10, 20, 30, 40 e 50 nessa ordem e só permite a sua retirada na ordem 50, 40, 30, 20 e 10 é um exemplo de uma Pilha.
+IV - Uma estrutura que recebe os dados 10, 20, 30, 40 e 50 nessa ordem e só permite a sua retirada na ordem 10, 20, 30, 40 e 50 é um exemplo de uma Fila.
+V - Um programa que usa apenas as estruturas de Pilha recebe os dados 1, 2, 3, 4 e 5 nessa ordem e imprime os dados na ordem 1, 3, 4, 5 e 2 pode ser implementado com duas estruturas de Pilha consecutivas.
+
+As afirmativas CORRETAS são:
+a) I, II e IV, apenas.
+b) I, II, V, apenas.
+c) I, III, IV e V, apenas.
+d) II, IV e V, apenas.
+e) II, III e IV, apenas.
+
+Resposta: a) I, II e IV, apenas. porem a III tambem esta certa 
+
+
+Questão 10:
+
+Determine o Heap obtido pela aplicação do algoritmo às seguintes prioridades (necessário desenhar todos os passos):
+18, 25, 41, 34, 14, 10, 52, 50, 48
+
+Resposta: 
+1. Inserir 18: [18]
+2. Inserir 25: [18, 25]
+3. Inserir 41: [18, 25, 41]
+4. Inserir 34: [18, 25, 41, 34]
+5. Inserir 14: [14, 18, 41, 34, 25]
+6. Inserir 10: [10, 18, 14, 34, 25, 41]
+7. Inserir 52: [10, 18, 14, 34, 25, 41, 52]
+8. Inserir 50: [10, 18, 14, 34, 25, 41, 52, 50]
+9. Inserir 48: [10, 18, 14, 34, 25, 41, 52, 50, 48]
